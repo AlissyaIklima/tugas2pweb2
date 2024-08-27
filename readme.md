@@ -226,7 +226,7 @@ kenapa dibagian objek hanya menampilkan echo aksesFitur(), dikarenakan pada saat
 
 [COM](https://www.warungbelajar.com/)
 ----------------------------------------
-# MODUL 3 DAN 4 JOB 4
+# MODUL 3 DAN 4 JOB 5
 
 Object-Oriented Programming (OOP) adalah paradigma pemrograman yang memodelkan masalah dunia nyata menggunakan konsep objek, seperti class dan object. Prinsip
 
