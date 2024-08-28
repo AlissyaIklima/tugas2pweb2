@@ -1,8 +1,11 @@
+
 <?php
 // class termasuk template untuk objek yang mempiliki poperti
 // didalam class Mahasiswa terdapat 3 properti yang diprivate
 class Mahasiswa {
     // private artinya hanya mahasiswa saja yang dapat melihat
+    // private dapat diakses dengan cara set dan get jika tidak menggunakan set dan get maka private tidak bisa dipanggil
+    // private dapat diakses oleh class itu sendiri
     Private $nama;
     Private $nim;
     Private $jurusan;

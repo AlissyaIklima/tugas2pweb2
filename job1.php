@@ -9,7 +9,7 @@ class Mahasiswa {
     public $nim;
     public $jurusan;
     // metode
-    // construct dipakai untuk koneksi
+    // construct secara otomatis akan berjalan ketika objek dibuat
     public function __construct($nama, $nim, $jurusan){
         $this->nama = $nama;
         $this->nim = $nim;
@@ -20,7 +20,7 @@ class Mahasiswa {
         return "nama : $this->nama, nim : $this->nim, jurusan : $this->jurusan";
     }
 }
-// objek
+// objek baru
 $mahasiswa1 = new Mahasiswa("Alissya Iklima Nur Ramadani", "230302003", "Komputer Dan Bisnis");
 // echo disini berguna menampilkan tampilkanData yang sudah diinput diatas
 echo $mahasiswa1->tampilkanData();

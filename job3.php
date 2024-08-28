@@ -1,4 +1,7 @@
 <!-- pewarisan  -->
+ <!-- enkapsuliasi adalah sebuah teknik -->
+  <!-- instansiasi adalah membuat sebuah objek dari kelas itu -->
+   <!-- inisialisasi adalah mengakses metode  -->
 <?php
 class Pengguna{
     // hanya bisa diakses oleh class itu sendiri dan class turunannya
@@ -30,7 +33,7 @@ class Dosen extends Pengguna{
     }
 }
 // objek
-// membuat objek baru $pengguna1
+// membuat objek baru(instansiasi) $pengguna1
 $pengguna1 = new Pengguna("Alissya Iklima Nur Ramadani", "230302003", "Komputer Dan Bisnis");
 echo $pengguna1->getNama();
 ?>
